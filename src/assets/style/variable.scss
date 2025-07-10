@@ -1,0 +1,45 @@
+$primary-color: #ffffff;
+$secondary-color: #000000;
+$dark-color: #000000;
+$primary-font: rgb(39, 41, 39);
+$secondary-font: #9f0000;
+$primary-colort: $primary-color;
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./fonts/Ubuntu/Ubuntu-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./fonts/Ubuntu/Ubuntu-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./fonts/Ubuntu/Ubuntu-Bold.ttf);
+  font-weight: 300;
+}
+.light-text {
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+.mid-text {
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+.bold-text {
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.animation-1 {
+  animation-name: rotateInUpLeft;
+}
+.hover-1 {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}
