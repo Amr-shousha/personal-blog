@@ -57,7 +57,7 @@ import Search from "./components/Search.vue";
       </div>
     </nav>
 
-    <main class="d-flex flex-column">
+    <main class="d-flex flex-fill flex-column">
       <router-view />
     </main>
     <footer class="footer py-1">
