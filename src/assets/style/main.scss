@@ -19,6 +19,13 @@ body {
     justify-content: space-around;
     padding: 60px 20px;
   }
+  .hero {
+    position: relative;
+    height: 600px;
+    background-image: url(../imgs/vintage.webp);
+    background-attachment: fixed;
+  }
+
   .primary-button {
     background-color: rgb(176, 20, 20);
     color: cornsilk;
@@ -56,6 +63,7 @@ body {
         display: none;
       }
     }
+
     .card-1 {
       // transition: all 1s ease-in-out;
       background-color: rgb(247, 51, 51);

@@ -57,7 +57,7 @@ import Search from "./components/Search.vue";
       </div>
     </nav>
 
-    <main class="flex-fill d-flex flex-column">
+    <main class="d-flex flex-column">
       <router-view />
     </main>
     <footer class="footer py-1">
@@ -126,7 +126,7 @@ main {
 }
 .footer {
   background-color: #000000;
-  padding: 15px 20px;
+  padding: 15px 0px;
 
   .footer-content {
     max-width: 1200px;

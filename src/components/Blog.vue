@@ -19,6 +19,7 @@
         </div>
 
         <img
+          loading="lazy"
           class="hover-1"
           v-if="post.fields.featuredImage"
           :src="`https:${post.fields.featuredImage.fields.file.url}`"
